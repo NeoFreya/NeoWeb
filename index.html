@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image-web</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.6.0/justifiedGallery.min.css" integrity="sha512-QONUACJD0XlvXN4ThVPGf0EGVj0I5CfgGIVMefCluWsHtxEZWXjstQQgiqemg2O4xDKWJZjEzguXJNiqNwRNGQ==" crossorigin="anonymous" />
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="left">
+                <div class="Logo">
+                    <a href="index.html" clas>
+                        <h1>NeoWeb</h1>
+                        <p>Image For Free</p>
+                    </a>
+                </div>
+
+                <div class="nav-search-form">
+                    <form>
+                        <input type="text" placeholder="Search Image">
+                    </form>
+                </div>
+            </div>
+
+            <ul class="nav">
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Like</a></li>
+                <li><a href="#" class="button-join">Join Free</a></li>
+            </ul>
+        </nav>
+
+        <div class="category-nav">
+            <div class="category">
+                <a href="#">Editorial</a>
+            </div>
+            <div class="category">
+                <a href="#">Wallpaper</a>
+            </div>
+            <div class="category">
+                <a href="#">Landscape</a>
+            </div>
+            <div class="category">
+                <a href="#">Vehicle</a>
+            </div>
+            <div class="category">
+                <a href="#">Animals</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>NeoWeb</h1>
+                <p>
+                    Get a perfect image in here
+                </p>
+                <div class="hero-search-form">
+                    <form>
+                        <input type="text" placeholder="Search Image....">
+                    </form>
+                </div>
+
+                <div class="trending-search-tags">
+                    <p>Trending Searches: <a href="#" class="trending-tags">flower</a>, <a href="#" class="trending-tags">Wallpaper</a>, <a href="#" class="trending-tags">Sky</a> </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-overlay"></div>
+    </section>
+
+    <section class="images">
+        <div id="gallery">
+            <a href="img/2.jpeg">
+                <img src="/img/2.jpeg" alt="Title 1">
+            </a>
+            <a href="img/2.jpeg">
+                <img src="/img/3.jpg" alt="Title 2">
+            </a>
+            <a href="img/2.jpeg">
+                <img src="/img/4.jpg" alt="Title 3">
+            </a>
+            <a href="img/2.jpeg">
+                <img src="/img/5.jpg" alt="Title 4">
+            </a>
+            <a href="img/2.jpeg">
+                <img src="/img/6.jpg" alt="Title 5">
+            </a>
+            <a href="img/2.jpeg">
+                <img src="/img/7.jpg" alt="Title 6">
+            </a>
+            <a href="img/2.jpeg">
+                <img src="/img/8.jpg" alt="Title 7">
+            </a>
+            <a href="img/2.jpeg">
+                <img src="/img/9.jpg" alt="Title 8">
+            </a>
+            <a href="img/2.jpeg">
+                <img src="/img/10.jpg" alt="Title 9">
+            </a>
+            <a href="img/2.jpeg">
+                <img src="/img/11.jpg" alt="Title 10">
+            </a>
+            <a href="img/2.jpeg">
+                <img src="/img/12.jpg" alt="Title 11">
+            </a>
+            <a href="img/2.jpeg">
+                <img src="/img/13.jpg" alt="Title 12">
+            </a>
+            <a href="img/2.jpeg">
+                <img src="/img/14.jpg" alt="Title 13">
+            </a>
+            <a href="img/2.jpeg">
+                <img src="/img/15.jpg" alt="Title 14">
+            </a>
+            <a href="img/2.jpeg">
+                <img src="/img/16.jpg" alt="Title 15">
+            </a>
+            <a href="img/2.jpeg">
+                <img src="/img/17.jpg" alt="Title 16">
+            </a>
+            <a href="img/2.jpeg">
+                <img src="/img/18.jpg" alt="Title 17">
+            </a>
+            <a href="img/2.jpeg">
+                <img src="/img/19.jpg" alt="Title 18">
+            </a>
+            <a href="img/2.jpeg">
+                <img src="/img/20.jpg" alt="Title 19">
+            </a>
+            <a href="img/2.jpeg">
+                <img src="/img/21.jpg" alt="Title 20">
+            </a>
+            <a href="img/2.jpeg">
+                <img src="/img/22.jpg" alt="Title 21">
+            </a>
+            <a href="img/2.jpeg">
+                <img src="/img/23.jpg" alt="Title 22">
+            </a>
+            <a href="img/2.jpeg">
+                <img src="/img/24.jpg" alt="Title 23">
+            </a>
+            <a href="img/2.jpeg">
+                <img src="/img/25.jpg" alt="Title 24">
+            </a>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.6.0/jquery.justifiedGallery.min.js" integrity="sha512-mpOHnyw2ZLBvWs/GpBitKAH4yM7Q88DAqur/Wyr5uAr0oh9nibQTv/hVGi9aw0Tk0tKahcObv32CHjiv71tMWg==" crossorigin="anonymous"></script>
+    <script>
+        $('#gallery').justifiedGallery({
+          rowHeight : 200,
+          lastRow : 'nojustify',
+          margins : 12
+        });
+      </script>
+</body>
+</html>
